@@ -63,7 +63,7 @@ people = [
     {"name": "Juan", "age": 20}
 ]
 print("\n")
-print("Ordenar una lista de diccionarios por el valor de una clave:")
+print("Ordenar una lista de diccionarios por el valor degi una clave:")
 print(people)
 sorted_people = sorted(people, key=lambda x: x["age"])
 print(sorted_people)
