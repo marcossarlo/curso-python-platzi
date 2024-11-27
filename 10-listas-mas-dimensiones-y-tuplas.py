@@ -27,10 +27,16 @@ matrix = [
     [7, 8, 9]
 ]
 print(matrix)
-print(matrix[1][1])
+print(matrix[1][2])
+
+# Crea un tablero self.board de 10x10, representado por una lista de listas, inicializado con espacios en blanco ' '.
+print("\nTablero:")
+board = [[' ' for _ in range(10)] for _ in range(10)]
+print(board)
+#print(len(board[0]))
 
 # Tuplas
-print('Tuplas')
+print('\nTuplas')
 number = (1, 2, 3, 4, 5) 
     # number = 1, 2, 3, 4, 5
 print(type(number), number)
