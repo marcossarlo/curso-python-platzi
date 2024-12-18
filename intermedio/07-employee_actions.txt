@@ -1,0 +1,3 @@
+Empleado: Coverdale, Rol: admin, Acción: delete_employee - ACCIÓN REALIZADA
+Empleado: Ana, Rol: employee, Acción: delete_employee - ACCESO DENEGADO
+Empleado: Nik, Rol: subadmin, Acción: delete_employee - ACCESO DENEGADO
